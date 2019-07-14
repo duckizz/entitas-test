@@ -17,8 +17,12 @@ public class CollisionEmitter : MonoBehaviour
             var thisEntity = col.gameObject.GetEntityLink().entity;
             col.gameObject.Unlink();
             thisEntity.Destroy();
-            if (targetTag=="Player")
+            if (targetTag=="Player") {
                 Camera.main.GetComponent<CameraShake>().Shake();
+                GameController.instance.EndGame();
+            } else if (targetTag=="Enemy") {
+                GameController.instance.playerScore++;
+            }
             Destroy(col.gameObject);
             var tempEntity = this.gameObject.GetEntityLink().entity;
             this.gameObject.Unlink();
