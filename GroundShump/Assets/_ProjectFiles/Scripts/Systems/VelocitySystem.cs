@@ -20,7 +20,10 @@ public class VelocitySystem : Feature
                  var pos  = e.position.value;
                 if (e.position.value.x>7 || e.position.value.x<-7 || e.position.value.y>7 || e.position.value.y<-7) {
                     //destroy?
+
                     UnityEngine.GameObject.Destroy(e.view.gameObject);
+                    e.view.gameObject.Unlink();
+                    e.Destroy();
                 } else
                 e.ReplacePosition(pos+e.velocity.value);
         }

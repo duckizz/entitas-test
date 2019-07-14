@@ -2,7 +2,7 @@
 using Entitas;
 using UnityEngine;
 
-public class CreateEnemySystem : IInitializeSystem
+public class CreateEnemySystem : Feature, IInitializeSystem
 {
     readonly GameContext _gameContext;
 
@@ -10,34 +10,8 @@ public class CreateEnemySystem : IInitializeSystem
     {
         _gameContext = contexts.game;
     }
-    /*     public CreateMoverSystem(Contexts contexts) : base(contexts.input)
-        {
-            _gameContext = contexts.game;
-        }
 
-        protected override ICollector<InputEntity> GetTrigger(IContext<InputEntity> context)
-        {
-            return context.CreateCollector(InputMatcher.AllOf(InputMatcher.RightMouse, InputMatcher.MouseDown));
-        }
-
-        protected override bool Filter(InputEntity entity)
-        {
-            return entity.hasMouseDown;
-        }
-
-            protected override void Execute(List<InputEntity> entities)
-        {
-            foreach (InputEntity e in entities)
-            {
-                GameEntity mover = _gameContext.CreateEntity();
-                mover.isMover = true;
-                mover.AddPosition(e.mouseDown.position);
-                mover.AddDirection(Random.Range(0,360));
-                mover.AddSprite("SMUP_1x1_J2Battlewagon_vertical_000");
-            }
-        }
-    */
-    public void Initialize()
+    public override void Initialize()
     {
         for (int i = 0; i < 5; i++)
         {
@@ -52,6 +26,19 @@ public class CreateEnemySystem : IInitializeSystem
 
         }
     }
+
+     public override void Execute()
+    {
+        int enemiesLeft=0;
+       foreach (GameEntity e in _gameContext.GetEntities()) {
+           if (e.isEnemy)
+            enemiesLeft++;
+
+       }
+       if (enemiesLeft==0)
+            Initialize();
+    }
+
 
 
 }

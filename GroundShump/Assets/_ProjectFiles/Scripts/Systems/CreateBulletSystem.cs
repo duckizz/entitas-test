@@ -50,9 +50,9 @@ public class CreateBulletSystem : ReactiveSystem<InputEntity>
 
         foreach (InputEntity e in entities)
         {
-            Debug.Log("playerpos=" + playerPosition);
             var gameObject = Assets.Instantiate<GameObject>(Res.Bullet);
             BulletsEntity mover=_bulletsContext.CreateEntity();
+            gameObject.Link(mover);
              mover.AddView(gameObject);
             mover.AddPosition(playerPosition);
             mover.AddVelocity(bulletDirection * 0.5f);

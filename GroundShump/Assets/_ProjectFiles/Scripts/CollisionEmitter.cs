@@ -18,6 +18,9 @@ public class CollisionEmitter : MonoBehaviour
             col.gameObject.Unlink();
             thisEntity.Destroy();
             Destroy(col.gameObject);
+            var tempEntity = this.gameObject.GetEntityLink().entity;
+            this.gameObject.Unlink();
+            tempEntity.Destroy();
             Destroy(this.gameObject);
 
         }
