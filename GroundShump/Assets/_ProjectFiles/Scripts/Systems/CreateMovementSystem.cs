@@ -43,6 +43,7 @@ public class CreateMoverSystem : IInitializeSystem
             mover.isPlayer = true;
             mover.AddPosition(new Vector3(0f,-2f,0f));
             mover.AddDirection(90);
+            gameObject.Link(mover);
             mover.AddView(gameObject);
     }
 

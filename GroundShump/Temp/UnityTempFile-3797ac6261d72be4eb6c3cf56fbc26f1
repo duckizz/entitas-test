@@ -82,9 +82,9 @@
 /reference:Assets/Libraries/Entitas/Entitas.dll
 /reference:Assets/Libraries/Entitas/Entitas.Unity.dll
 /reference:Assets/Libraries/Entitas/Entitas.VisualDebugging.Unity.dll
-/reference:C:/UnityProjects/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll
-/reference:C:/UnityProjects/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll
-/reference:C:/UnityProjects/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll
+/reference:C:/UnityProjects/entitas-test/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll
+/reference:C:/UnityProjects/entitas-test/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll
+/reference:C:/UnityProjects/entitas-test/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll"
 /reference:"C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"

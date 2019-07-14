@@ -13,7 +13,10 @@ public class CreateEnemySystem : Feature, IInitializeSystem
 
     public override void Initialize()
     {
-        for (int i = 0; i < 5; i++)
+  
+    }
+    void CreateEnemies() {
+      for (int i = 0; i < 5; i++)
         {
             GameEntity mover = _gameContext.CreateEntity();
             var gameObject = Assets.Instantiate<GameObject>(Res.Enemy);
@@ -26,6 +29,7 @@ public class CreateEnemySystem : Feature, IInitializeSystem
 
         }
     }
+    
 
      public override void Execute()
     {
@@ -36,7 +40,7 @@ public class CreateEnemySystem : Feature, IInitializeSystem
 
        }
        if (enemiesLeft==0)
-            Initialize();
+            CreateEnemies();
     }
 
 

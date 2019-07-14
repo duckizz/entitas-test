@@ -131,25 +131,25 @@
      <None Include="Assets\Libraries\Entitas\Entitas.xml" />
      <None Include="Assets\Libraries\Entitas\LICENSE.txt" />
  <Reference Include="Unity.Timeline.Editor">
- <HintPath>C:/UnityProjects/GroundShump/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro.Editor">
- <HintPath>C:/UnityProjects/GroundShump/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.PackageManagerUI.Editor">
- <HintPath>C:/UnityProjects/GroundShump/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Timeline">
- <HintPath>C:/UnityProjects/GroundShump/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
  </Reference>
  <Reference Include="Unity.CollabProxy.Editor">
- <HintPath>C:/UnityProjects/GroundShump/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.TextMeshPro">
- <HintPath>C:/UnityProjects/GroundShump/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.DataPrivacy">
- <HintPath>C:/UnityProjects/GroundShump/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
  </Reference>
  <Reference Include="UnityEngine.AIModule">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -335,37 +335,37 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
  </Reference>
  <Reference Include="DesperateDevs.Logging">
- <HintPath>C:/UnityProjects/GroundShump/Assets/Libraries/DesperateDevs/DesperateDevs.Logging.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Assets/Libraries/DesperateDevs/DesperateDevs.Logging.dll</HintPath>
  </Reference>
  <Reference Include="DesperateDevs.Networking">
- <HintPath>C:/UnityProjects/GroundShump/Assets/Libraries/DesperateDevs/DesperateDevs.Networking.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Assets/Libraries/DesperateDevs/DesperateDevs.Networking.dll</HintPath>
  </Reference>
  <Reference Include="DesperateDevs.Serialization">
- <HintPath>C:/UnityProjects/GroundShump/Assets/Libraries/DesperateDevs/DesperateDevs.Serialization.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Assets/Libraries/DesperateDevs/DesperateDevs.Serialization.dll</HintPath>
  </Reference>
  <Reference Include="DesperateDevs.Utils">
- <HintPath>C:/UnityProjects/GroundShump/Assets/Libraries/DesperateDevs/DesperateDevs.Utils.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Assets/Libraries/DesperateDevs/DesperateDevs.Utils.dll</HintPath>
  </Reference>
  <Reference Include="Entitas.CodeGeneration.Attributes">
- <HintPath>C:/UnityProjects/GroundShump/Assets/Libraries/Entitas/Entitas.CodeGeneration.Attributes.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Assets/Libraries/Entitas/Entitas.CodeGeneration.Attributes.dll</HintPath>
  </Reference>
  <Reference Include="Entitas">
- <HintPath>C:/UnityProjects/GroundShump/Assets/Libraries/Entitas/Entitas.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Assets/Libraries/Entitas/Entitas.dll</HintPath>
  </Reference>
  <Reference Include="Entitas.Unity">
- <HintPath>C:/UnityProjects/GroundShump/Assets/Libraries/Entitas/Entitas.Unity.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Assets/Libraries/Entitas/Entitas.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Entitas.VisualDebugging.Unity">
- <HintPath>C:/UnityProjects/GroundShump/Assets/Libraries/Entitas/Entitas.VisualDebugging.Unity.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Assets/Libraries/Entitas/Entitas.VisualDebugging.Unity.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Editor">
- <HintPath>C:/UnityProjects/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Editor.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.StandardEvents">
- <HintPath>C:/UnityProjects/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.StandardEvents.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Analytics.Tracker">
- <HintPath>C:/UnityProjects/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
+ <HintPath>C:/UnityProjects/entitas-test/GroundShump/Library/PackageCache/com.unity.analytics@3.3.2/Unity.Analytics.Tracker.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.4f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
