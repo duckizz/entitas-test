@@ -59,6 +59,7 @@
      <Compile Include="Assets\_ProjectFiles\Scripts\CollisionEmitter.cs" />
      <Compile Include="Assets\_ProjectFiles\Scripts\Components\Components.cs" />
      <Compile Include="Assets\_ProjectFiles\Scripts\EntityLink.cs" />
+     <Compile Include="Assets\_ProjectFiles\Scripts\SpeedScript.cs" />
      <Compile Include="Assets\_ProjectFiles\Scripts\Systems\AddViewSystem.cs" />
      <Compile Include="Assets\_ProjectFiles\Scripts\Systems\CommandMoveSystem.cs" />
      <Compile Include="Assets\_ProjectFiles\Scripts\Systems\CreateBulletSystem.cs" />

@@ -6,7 +6,7 @@ public class EnemyMoveSystem : Feature
     
     readonly IGroup<GameEntity> _enemies;
     readonly IGroup<GameEntity> _players;
-     const float _speed = 0.5f;
+    float _speed = 0.75f;
 
  public EnemyMoveSystem(Contexts contexts)
     {
@@ -29,7 +29,7 @@ public class EnemyMoveSystem : Feature
         {
 
               Vector2 dir = targetPosition - e.position.value;
-            Vector2 newPosition = e.position.value + dir.normalized * _speed * Time.deltaTime;
+            Vector2 newPosition = e.position.value + dir.normalized * e.view.gameObject.GetComponent<SpeedScript>().mySpeed * Time.deltaTime;
             e.ReplacePosition(newPosition);
 
             float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;

@@ -55,7 +55,8 @@ public class CreateBulletSystem : ReactiveSystem<InputEntity>
             gameObject.Link(mover);
              mover.AddView(gameObject);
             mover.AddPosition(playerPosition);
-            mover.AddVelocity(bulletDirection * 0.5f);
+            Debug.Log("speed=" + gameObject.GetComponent<SpeedScript>().mySpeed);
+            mover.AddVelocity(bulletDirection * gameObject.GetComponent<SpeedScript>().mySpeed);
 
         }
     }

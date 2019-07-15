@@ -37,7 +37,7 @@ public class KeyboardMoveSystem : MultiReactiveSystem<InputEntity, Contexts>
             if (movers.Length <= 0) return;
             for (int i = 0; i < movers.Length; i++)
             {
-                movers[i].ReplaceMove(movers[i].position.value + e.keyboardInput.adjustPosition);
+                movers[i].ReplaceMove(movers[i].position.value + (e.keyboardInput.adjustPosition * movers[i].view.gameObject.GetComponent<SpeedScript>().mySpeed));
             }
             // movers[Random.Range(0, movers.Length)].ReplaceMove(e.mouseDown.position);
         }
